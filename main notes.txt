@@ -1,0 +1,82 @@
+head es diferente de header....
+Head se utiliza como METADATOS
+HTML----------------------------------
+<br> es salto de linea
+<abbr> Necesita de la propiedad tittle para una abreviacion
+<ol> ordered list
+<li> un elemento de la lista
+<em> letra inclinada
+<strong> crea un efasis a la palabra dentro del parametro
+<hr> linea blanca separadora
+<ul> unOrdered list Bullet vs numbers on the ol
+<a> para crear un link
+<section> crea secciones es necesario implementar el id
+para reconocerlos
+<a href="html5.png" download="html5">
+Crea un link de descarga
+<article>
+igual que el section o similar
+
+<img loading> attribute
+Permite que se cargue una imagen mientras va scrolleando la pagina
+la razon ayuda a que cargue
+mas rapido
+CARGA primero toda la pagina y luego carga las imagenes dependiendo 
+el scroll
+
+<figure>
+encapsula una imagen lo que permite ponerle una caption 
+debajo (se ve mejor que ponerle un parrafo)
+
+<aside> crea una flecha que se despliega
+<detail> el contenido dentro de esa flecha
+<summary> masomenos lo mismo que el de arriba
+
+
+CSS----------------------------------
+cada uno de los items deberia de tener propiedades y dependiendo 
+el contexto podriamos hacerlo mas o menos bonito
+
+es una cascada por lo tanto lo que quede al ultimo va a ser lo que prevalezca
+
+Selector
+todo a lo que se le aplique un estilo en especifico
+
+cuando se ponen comas "," se agregan a la sentencia a que se le esta aplicando 
+el stilo
+ej
+h1,h2{
+    aqui se le aplica a varios elementos h1,h2
+}
+
+Propiedades
+
+font-family: Arial, Helvetica, sans-serif;{
+establece una fuente para un selector
+}
+color{
+    indica el color de la fuente
+    se pueden utilizar rgb{
+        rgb(255,0,0)
+    }
+    igualmente el rgba{
+        rgba(verde,rojo,azul,transparencia)
+    }
+    Hexadecimal{
+        #FFFFFF
+    }
+    hsl{
+        mediante saturacion porcentaje de brillo y de color
+    }
+}
+fonts
+p {
+  line-height: 1.5;
+  Espaciado
+  letter-spacing: 0.1em;
+  espaciado entre letras
+  word-spacing: 0.1em;
+  espaciado entre palabras
+  font-style: normal;
+  tipo de estilo puede ser bold oblique italic
+}

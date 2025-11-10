@@ -1,0 +1,42 @@
+* {
+  font-family: Century Gothic;
+  /* border: 1px solid whitesmoke; */
+}
+html {
+  font-size: 22px;
+}
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+main {
+  font-family: monospace;
+}
+body {
+  font-size: 22px;
+  background-color: #333;
+  color: whitesmoke;
+}
+p {
+  /* Never use important on CSS its a bad practice */
+  font-size: 15px;
+}
+.gray {
+  color: lightcyan;
+}
+/* try to avoid using id's */
+#second {
+  font-style: italic;
+}
+h1 {
+  color: lightblue;
+}
+.highlight {
+  text-transform: uppercase;
+  background-color: gold;
+}
+article {
+  font-style: italic;
+}

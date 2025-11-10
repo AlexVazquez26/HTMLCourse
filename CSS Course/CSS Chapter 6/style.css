@@ -1,0 +1,17 @@
+body {
+  padding: 10%;
+  font-size: 1rem;
+  color: purple;
+  font-family: monospace;
+}
+
+input,
+button {
+  font: inherit;
+}
+p {
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+  word-spacing: 0.1em;
+  font-style: normal;
+}
