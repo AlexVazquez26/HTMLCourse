@@ -1,0 +1,31 @@
+head es diferente de header....
+Head se utiliza como METADATOS
+HTML----------------------------------
+<br> es salto de linea
+<abbr> Necesita de la propiedad tittle para una abreviacion
+<ol> ordered list
+<li> un elemento de la lista
+<em> letra inclinada
+<strong> crea un efasis a la palabra dentro del parametro
+<hr> linea blanca separadora
+<ul> unOrdered list Bullet vs numbers on the ol
+<a> para crear un link
+<section> crea secciones es necesario implementar el id
+para reconocerlos
+<a href="html5.png" download="html5">
+Crea un link de descarga
+
+loading attribute
+Permite que se cargue una imagen mientras va scrolleando la pagina
+la razon ayuda a que cargue
+mas rapido
+CARGA primero toda la pagina y luego carga las imagenes dependiendo 
+el scroll
+
+figure
+encapsula una imagen lo que permite ponerle una caption 
+debajo (se ve mejor que ponerle un parrafo)
+
+CSS----------------------------------
+cada uno de los items deberia de tener propiedades y dependiendo 
+el contexto podriamos hacerlo mas o menos bonito
