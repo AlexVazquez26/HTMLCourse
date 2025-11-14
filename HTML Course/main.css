@@ -1,5 +1,5 @@
 html {
-  font-size: 22px;
+  font-size: 16px;
 }
 body {
   background-color: #333;
@@ -22,7 +22,11 @@ th,
 td,
 caption {
   border: 1px solid #eee;
-  font-family: "Courier New", Courier, monospace;
+  font-family: 'Courier New', Courier, monospace;
   border-collapse: collapse;
   padding: 0.5rem;
+}
+h1 {
+  border: dashed white 0.5px;
+  padding: 1rem;
 }
